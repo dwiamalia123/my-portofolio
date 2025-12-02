@@ -34,11 +34,12 @@ Saya adalah seorang Data Analyst dengan passion dalam mengubah data menjadi insi
 **Deskripsi:** analisis tingkat kepuasan dan sentimen penumpang maskapai dengan berfokus pada identifikasi faktor-faktor yang paling berpengaruh terhadap pengalaman penumpang seperti kenyamanan kursi, kebersihan kabin, pelayanan awak pesawat, ketepatan waktu, serta kualitas inflight service.
 
 **Tools:** Python, Tableau, SQL
+
 **[View Dashboard →](https://public.tableau.com/views/CustomerSatisfactionSentimentAnalyst-DwiAmalia/SatisfactionAnalyst?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+
 **[View Full Analysis →](https://www.canva.com/design/DAG5ZkEbNR8/1E3zoI_mdpVxDrfuZxkzKQ/edit?utm_content=DAG5ZkEbNR8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
 
 ---
 
-⭐️ Jika Anda menemukan project saya bermanfaat, jangan lupa berikan star!
 
-**Last Updated:** Desember 2024
+**Last Updated:** Desember 2025

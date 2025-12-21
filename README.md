@@ -1,5 +1,3 @@
-# Data Analyst Portfolio
-
 Selamat datang di portofolio saya! Repository ini berisi  project data analysis yang telah saya kerjakan untuk mendemonstrasikan skills dan kemampuan analisis data saya.
 
 ## Tentang Saya
@@ -27,6 +25,19 @@ Saya adalah seorang Data Analyst dengan passion dalam mengubah data menjadi insi
 - Data Visualization
 - Dashboard Development
 - A/B Testing
+
+# A. Data Science Portfolio
+## Projects
+
+### 1. Wine Quality
+**Deskripsi:** analisis terhadap dataset Wine Quality untuk untuk mengidentifikasi faktor-faktor yang paling berpengaruh terhadap kualitas wine serta mengevaluasi performa model dalam melakukan prediksi secara akurat.
+
+**Tools:** Python,  Canva
+
+**[View Full Analysis Wine Quality→](https://www.canva.com/design/DAG8GeCKUe4/DfMIG65guSe5yzd9piEYfg/edit?utm_content=DAG8GeCKUe4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
+
+
+# B. Data Analyst Portfolio
 
 ## Projects
 

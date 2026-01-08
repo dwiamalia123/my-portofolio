@@ -1,91 +1,56 @@
 # 🍷 Wine Quality Prediction
+**Supervised Learning | Linear, Ridge & Lasso Regression**
 
-## 📌 Project Overview
-Project ini bertujuan untuk **memprediksi kualitas wine** berdasarkan karakteristik fisikokimia menggunakan pendekatan **machine learning**.  
-Analisis ini membantu produsen wine memahami faktor-faktor utama yang memengaruhi kualitas produk sehingga dapat meningkatkan proses produksi dan kontrol kualitas.
-
----
+## 📌 Project Summary
+Project ini memprediksi **kualitas wine** berdasarkan fitur fisikokimia menggunakan **supervised learning**. Fokus analisis adalah memilih model regresi yang **paling stabil** untuk mendukung proses **quality control**.
 
 ## 🎯 Objectives
-- Menganalisis hubungan antara variabel fisikokimia dan kualitas wine
-- Melakukan exploratory data analysis (EDA)
-- Membangun model prediksi kualitas wine
-- Mengevaluasi performa model machine learning
-
----
+- Mengidentifikasi fitur yang berpengaruh terhadap kualitas wine  
+- Menangani multikolinearitas antar fitur  
+- Membangun dan membandingkan Linear, Ridge, dan Lasso Regression  
+- Menentukan model terbaik berdasarkan evaluasi performa  
 
 ## 📂 Dataset
-- **Sumber**: UCI Machine Learning Repository
-- **Jumlah data**: 1.599 data (Red Wine)
-- **Target variable**: `quality`
-- **Format data**: CSV
+- **Sumber**: Wine Quality Dataset (UCI ML Repository)  
+- **Jumlah data**: 1.599 observasi  
+- **Target**: `quality`  
+- **Fitur utama**: alcohol, volatile acidity, sulphates, acidity, dll  
 
-**Variabel utama:**
-- `fixed acidity`
-- `volatile acidity`
-- `citric acid`
-- `residual sugar`
-- `alcohol`
-- `pH`
-- `sulphates`
+## 🛠 Tools & Skills
+- **Python** (Pandas, NumPy)  
+- **Visualization** (Matplotlib, Seaborn)  
+- **Machine Learning** (Scikit-learn)  
+- Regression Models: **Linear, Ridge, Lasso**  
+- **Standard Scaling**, **VIF/correlation-based feature selection**  
 
----
+## 🔍 Key Analysis
+- Tidak ada missing values  
+- Menghapus **240 data duplikat** dan **354 outliers** (metode IQR)  
+- Normalisasi menggunakan **Standard Scaler**  
+- Seleksi fitur dengan **Heatmap & VIF** (menghapus `density` dan `pH` karena VIF ekstrem)  
+- Menggunakan regularisasi untuk mengatasi multikolinearitas  
 
-## 🛠 Tools & Technologies
-- **Python** (Pandas, NumPy, Matplotlib, Seaborn)
-- **Scikit-learn**
-- **Jupyter Notebook**
-- **GitHub**
+## 🤖 Modeling & Evaluation
+Model yang dibandingkan:
+- Linear Regression (baseline)  
+- Ridge Regression (regularization)  
+- Lasso Regression (feature shrinking)  
 
----
+**Hasil utama:**
+- **Ridge Regression** adalah model paling stabil dengan **RMSE terendah dan R² tertinggi**  
+- Lebih robust terhadap multikolinearitas dibanding Linear dan Lasso  
 
-## 🔍 Data Cleaning & Preparation
-Langkah-langkah yang dilakukan:
-- Pengecekan dan penanganan missing values
-- Explorasi outliers
-- Feature selection
-- Data splitting (train-test split)
-- Feature scaling
+## 💡 Insights & Business Value
+- `alcohol` berpengaruh positif terhadap kualitas wine  
+- `volatile acidity` berpengaruh negatif terhadap kualitas  
+- Model Ridge dapat membantu **estimasi kualitas lebih awal** untuk mendukung kontrol kualitas dan keputusan produksi berbasis data  
 
----
+## 🎤 Presentation
+[[Wine Quality Presentation]](https://www.canva.com/design/DAG8GeCKUe4/DfMIG65guSe5yzd9piEYfg/edit?utm_content=DAG8GeCKUe4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-## 📈 Exploratory Data Analysis (EDA)
-Temuan utama:
-- Kadar alkohol memiliki korelasi positif terhadap kualitas wine
-- Beberapa fitur seperti volatile acidity menunjukkan korelasi negatif
-- Distribusi kualitas wine cenderung tidak seimbang
 
----
-
-## 🤖 Modeling
-Model yang digunakan:
-- Linear Regression
-- Random Forest Regressor *(atau classifier jika dikategorikan)*
-
-**Evaluation metrics:**
-- RMSE
-- R² Score
-
-Model terbaik menunjukkan performa yang stabil dalam memprediksi kualitas wine.
-
----
-
-## 💡 Insights & Recommendations
-**Insights:**
-- Alcohol dan sulphates merupakan fitur paling berpengaruh
-- Kualitas wine dapat diprediksi cukup baik menggunakan model ensemble
-
-**Recommendations:**
-- Fokus pada kontrol kadar alkohol dan sulphates
-- Gunakan model prediksi sebagai alat bantu quality control
-
----
-
-## 📁 Project Structure
-```text
-wine_quality_prediction/
-├── dataset/
-│   └── winequality-red.csv
-├── notebook/
-│   └── wine_quality_prediction.ipynb
-└── README.md
+## 📬 Contact
+**Dwi Amalia**  
+Email: dwiamalia228@gmail.com  
+LinkedIn: https://www.linkedin.com/in/dwi-amalia-/  
+GitHub: https://github.com/dwiamalia123  

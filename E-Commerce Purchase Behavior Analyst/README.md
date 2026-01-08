@@ -1,96 +1,56 @@
-# 📊 Project Title
-**(Contoh: E-commerce Purchase Behavior Analysis)**
+# ✈️ Airline Passenger Experience
+**Customer Satisfaction & Sentiment Analysis**
 
-## 📌 Project Overview
-Jelaskan secara singkat:
-- Latar belakang masalah
-- Tujuan analisis
-- Pertanyaan bisnis yang ingin dijawab
-
-Contoh:
-> Project ini bertujuan untuk menganalisis perilaku pembelian pelanggan pada platform e-commerce guna mengidentifikasi faktor yang memengaruhi keputusan pembelian dan meningkatkan strategi pemasaran.
-
----
+## 📌 Project Summary
+Project ini menganalisis **kepuasan dan sentimen penumpang maskapai penerbangan** untuk mengidentifikasi faktor layanan yang paling memengaruhi pengalaman pelanggan. Analisis difokuskan pada aspek pra-penerbangan, layanan dalam pesawat, serta dampak **delay** terhadap kepuasan dan sentimen pelanggan guna mendukung peningkatan kualitas layanan dan retensi.
 
 ## 🎯 Objectives
-- Mengetahui pola pembelian pelanggan
-- Mengidentifikasi produk dengan performa terbaik
-- Memberikan rekomendasi berbasis data
-
----
+- Mengukur tingkat kepuasan penumpang
+- Menganalisis sentimen pelanggan berdasarkan rating layanan
+- Mengidentifikasi faktor layanan dengan performa terbaik dan terburuk
+- Memberikan rekomendasi berbasis data untuk peningkatan layanan
 
 ## 📂 Dataset
-- **Sumber**: (Kaggle / Internal / Public Dataset)
-- **Jumlah data**: (mis. 50.000 rows, 10 kolom)
-- **Periode**: (jika ada)
+- **Sumber**: Airline Passenger Satisfaction
+- **Ukuran**: ±100.000 baris, 25 kolom
+- **Target**: `satisfaction` (Satisfied / Neutral or Dissatisfied)
+- **Fitur utama**: seat comfort, inflight service, cleanliness, delay, class, type of travel
 
-**Variabel utama:**
-- `customer_id`
-- `product_category`
-- `purchase_amount`
-- `purchase_date`
+## 🛠 Tools & Skills
+- **Python** (Pandas, NumPy)
+- **Data Cleaning & Feature Engineering**
+- **EDA & Visualization**
+- **Power BI** (Interactive Dashboard)
+- **Business Insight & Recommendation**
 
----
+## 🔍 Key Analysis
+- Menghapus missing values (~300 baris)
+- Feature engineering:
+  - **Age Group**
+  - **Delay Category**
+  - **Average Service Score**
+  - **Sentiment Category** (Positive / Neutral / Negative)
+- Outliers dipertahankan karena mencerminkan kondisi operasional nyata
+- Analisis kepuasan berdasarkan **usia, tipe pelanggan, kelas, travel type, dan delay**
 
-## 🛠 Tools & Technologies
-- Python (Pandas, NumPy, Matplotlib, Seaborn)
-- SQL (PostgreSQL)
-- Power BI / Tableau
-- Excel
+## 📊 Key Findings
+- **57%** pelanggan berada pada kategori *neutral/dissatisfied*
+- **Business Travel** memiliki tingkat kepuasan lebih tinggi dibanding Personal Travel
+- **Delay** berdampak signifikan: semakin lama delay, semakin rendah kepuasan
+- Layanan pra-penerbangan (online booking, check-in, WiFi) memiliki rating terendah
+- Sentimen pelanggan didominasi **netral (51%)** dan **negatif (34%)**
 
----
+## 💡 Business Recommendations
+- Tingkatkan layanan pra-penerbangan (booking, check-in, boarding, WiFi)
+- Perbaiki manajemen jadwal dan komunikasi delay secara real-time
+- Fokus pada segmen berisiko: **loyal customer** dan **personal travel**
+- Perkuat konsistensi layanan di dalam pesawat (seat comfort & inflight service)
 
-## 🔍 Data Cleaning & Preparation
-Langkah-langkah yang dilakukan:
-- Menangani missing values
-- Menghapus duplikasi data
-- Feature engineering
-- Normalisasi / encoding (jika ada)
+## 🎤 Presentation
+📎 [View Project Presentation](https://www.canva.com/design/DAG5ZkEbNR8/1E3zoI_mdpVxDrfuZxkzKQ/edit?utm_content=DAG5ZkEbNR8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
----
-
-## 📈 Exploratory Data Analysis (EDA)
-Insight utama yang ditemukan:
-- Distribusi penjualan berdasarkan kategori
-- Pola pembelian pelanggan
-- Tren penjualan berdasarkan waktu
-
----
-
-## 📊 Dashboard / Visualization
-- Dashboard dibuat menggunakan **Power BI / Tableau**
-- Menampilkan:
-  - Total penjualan
-  - Top products
-  - Customer segmentation
-
-📎 **Link Dashboard:**  
-*(jika ada link Tableau Public / screenshot)*
-
----
-
-## 🤖 Modeling (Opsional – untuk Data Science)
-- Model yang digunakan: (Linear Regression / Random Forest / dll)
-- Evaluation metric: (Accuracy / RMSE / AUC)
-- Hasil model
-
----
-
-## 💡 Insights & Recommendations
-**Insight utama:**
-- Produk kategori X memiliki kontribusi penjualan tertinggi
-- Pelanggan dengan segment Y paling loyal
-
-**Rekomendasi:**
-- Fokus promosi pada kategori X
-- Program loyalitas untuk segment Y
-
----
-
-## 📁 Project Structure
-```text
-project_name/
-├── dataset/
-├── notebook.ipynb
-├── dashboard.pbix
-└── README.md
+## 📬 Contact
+**Dwi Amalia**  
+Email: dwiamalia228@gmail.com  
+LinkedIn: https://www.linkedin.com/in/dwi-amalia-/  
+GitHub: https://github.com/dwiamalia123  
